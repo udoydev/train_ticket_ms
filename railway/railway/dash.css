@@ -1,0 +1,116 @@
+*
+{
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+
+.nav
+{
+    
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(84, 24, 140);
+    padding: 10px;
+
+
+    overflow: hidden;
+}
+
+.dropdown {
+    /* float: left; */
+    overflow: hidden;
+  }
+
+  .dropbtn 
+  {
+    width: 100px;
+    text-align: center;
+    background-color:rgb(84, 24, 140);
+    border-radius: 20px;
+    margin-top: 20px;
+   padding: 5px 5px 5px 5px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    border: 2px solid rgb(84, 24, 140);
+  }
+
+  .dropdown .dropbtn {
+    font-size: larger;
+    font-weight: bold;
+    color: gold;
+    font-family: inherit; /* Important for vertical align on mobile phones */
+    margin: -5px; /* Important for vertical align on mobile phones */
+  }
+
+  .dropdown:hover .dropbtn {
+    background-color: rgb(243, 6, 6);
+  }
+
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width:fit-content;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+
+  .dropdown-content a {
+    float: none;
+    color: black;
+   
+    text-decoration: none;
+    display: block;
+    text-align: left;
+    font-size: medium;
+    font-weight: bolder;
+  }
+
+  /* Add a grey background color to dropdown links on hover */
+.dropdown-content a:hover {
+    background-color: #d429ff;
+    color:black;
+    font-weight: bolder;
+  }
+  
+  /* Show the dropdown menu on hover */
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+
+
+a
+{
+    text-decoration: none;
+    font-size: larger;
+    font-weight: bold;
+    color:gold;
+    transition: all 0.3s ease;
+    width: 100px;
+    border-radius: 20px;
+ 
+    padding: 5px 5px 5px 5px;
+   text-align: center;
+}
+
+    a:hover {
+        background-color: rgb(168, 206, 169);
+        color: white; /* Change text color to white */
+        transition: background-color 0.3s ease; /* Smooth transition */
+        border-radius: 5px;
+        width: 110px;
+    }
+    
+
+li
+{
+    list-style: none;
+    display: flex;
+   
+    gap: 25px;
+}
+li img{
+    height: 30px;
+    width: 30px;
+}

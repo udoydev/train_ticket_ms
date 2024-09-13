@@ -1,0 +1,176 @@
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href=".//////////dash.css">
+    <title>Railway Management System</title>
+   
+</head>
+<body >
+    <nav>
+        <div class="nav">
+
+          <li>
+          <img src="./img/logo.png" alt="">
+          <a href="./customer.php">Passenger</a>
+            <a href="./train.php">Train</a>
+            <a href="./station.php">Station</a>
+            <a href="./ticket.php">Ticket</a>
+            <a href="./home.php">Home</a>
+   
+         
+           
+            <a href="./report.php">Report</a>
+
+            <div class="dropdown">
+    <button class="dropbtn">View 
+   
+    </button>
+    <div class="dropdown-content">
+      <a href="./view.php">Customer_v</a>
+      <a href="./viewt.php">View_train </a>
+      <a href="./viewtic.php">View_ticket</a>
+    </div>
+    </div>
+    
+    <div class="dropdown">
+    <button class="dropbtn">Search 
+   
+    </button>
+    <div class="dropdown-content">
+      <a href="./search.php">Customer_S</a>
+      <a href="./searchsta.php"> Station_s</a>
+      <a href="./searchtrai.php">Train_s</a>
+      <a href="./searchtic.php">ticket_s</a>
+    </div>
+    </div>
+          </li>
+    
+          <li>
+            <a href="./sign.php">sign up</a>
+            <a href="./login.php">log in</a>
+          </li>
+
+        </div>
+    </nav>
+</body>
+</html>
+
+<h2 align="center"> Train Ticket Report </h2><table border="1" align="center"><tr><th>Train No</th><th>Station Name</th><th>Seat No</th><th>Date</th><th>Passenger Name</th><th>Passenger ID</th></tr><tr><td>321</td><td>hhhhhhs</td><td>87y</td><td>2024-04-01</td><td>Imran khan</td><td>22303286</td></tr><tr><td>55</td><td></td><td>87y</td><td>2024-04-17</td><td>Imran khan</td><td>22303286</td></tr></table>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Generate Train Ticket Report</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background-color: #f2f2f2;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        h1 {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        form {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        button {
+            padding: 10px 20px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+
+        button:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Generate Train Ticket Report</h1>
+        <form method="post" action="/railway/railway/report.php">
+            <button type="submit" name="generatePDF">Generate PDF Report</button>
+        </form>
+    </div>
+</body>
+</html>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .divv
+    {
+
+        height: 200px;
+        background-color: green;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        
+    }
+    .img img{
+        height: 100px;
+       
+    }
+   .li a
+    {
+        text-decoration: none;
+        font-weight: bold;
+        color: aqua;
+        
+    }
+    .li{
+        list-style: none;
+    }
+</style>
+<body>
+
+    <div class="divv">
+        <div class="img"><img src="./img/logo.png" alt=""></div>
+    <li class="li">
+          <a href="./customer.php">Passenger</a>
+            <a href="./train.php">Train</a>
+            <a href="./station.php">Station</a>
+            <a href="./ticket.php">Ticket</a>
+            <a href="./home.php">Home</a>
+            <a href="./view.php">View</a>
+            <a href="./search.php">Search</a>
+          </li>
+        
+          <marquee behavior="" direction="">
+          <p>&copy; 2024 IMRAN NAZIR UDOY. All rights reserved. <span class="copyright">&#169;</span></p>
+          </marquee>
+
+    </div>
+</body>
+</html>

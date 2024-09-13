@@ -1,0 +1,49 @@
+*
+{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.form{
+    height:400px ;
+    width: 500px;
+    background-color:  rgba(98, 203, 110, 0.775);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 30px;
+    box-shadow: 3px 3px 3px black;
+
+}
+button
+{
+    width: 100px;
+    text-align: center;
+    background-color: rgb(69, 115, 117);
+    border-radius: 20px;
+    margin-top: 20px;
+   
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+button:hover
+{
+    width: 110px; ;
+    text-align: center;
+    background-color: rgb(245, 255, 255);
+    color: black;
+}
+label
+{
+    font-weight: bolder;
+}
+input
+{
+    background-color: rgb(255, 255, 255);
+    width: 200px;
+    border-radius: 10px;
+}
+section
+{
+    height: 65vh;
+}
